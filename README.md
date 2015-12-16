@@ -1,13 +1,15 @@
 # INetSyphon SDK for iOS
 
 Requires: Xcode 7.1+  
-Deployment Target: iOS 8.0+
-ARC: Off
-OpenGLES: 2+
+Deployment Target: iOS 8.0+  
+ARC: Off  
+OpenGLES: 2+  
 
 
 Add: TCPSyphon server and TCPSyphon client.  
 
+Client-Application's example: TLSyphonViewer http://techlife.sg/TLSyphonViewer/  
+Server-Application's example: TLRemoteCamera http://techlife.sg/TLRemoteCamera/  
 
 About SIGPIPE.
 
