@@ -7,7 +7,6 @@ OpenGLES: 2+
 
 
 Add: TCPSyphon server and TCPSyphon client.  
-Add: UDPSyphon server and UDPSyphon client.
 
 
 About SIGPIPE.
