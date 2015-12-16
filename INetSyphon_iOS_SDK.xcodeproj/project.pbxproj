@@ -7,20 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5A7DA841C1D7CFD00FD3EFC /* INetSyphon_iOS_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A7DA831C1D7CFD00FD3EFC /* INetSyphon_iOS_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D59C66EE1C21297D009DE1CF /* GL_FBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D59C66ED1C21297D009DE1CF /* GL_FBObject.m */; };
+		D59C67051C2176A9009DE1CF /* TL_INetSyphonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59C67041C2176A9009DE1CF /* TL_INetSyphonSDK.framework */; };
+		D59C67061C2176B3009DE1CF /* TL_INetSyphonSDK.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = D59C67041C2176A9009DE1CF /* TL_INetSyphonSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D59C67071C2176C7009DE1CF /* TL_INetSyphonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59C67041C2176A9009DE1CF /* TL_INetSyphonSDK.framework */; };
+		D59C67081C2176CC009DE1CF /* TL_INetSyphonSDK.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = D59C67041C2176A9009DE1CF /* TL_INetSyphonSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D59C67091C21781C009DE1CF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A7DAC81C1D81FB00FD3EFC /* GLKit.framework */; };
+		D59C670A1C217825009DE1CF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A7DAC81C1D81FB00FD3EFC /* GLKit.framework */; };
+		D5A7DAD21C1D845800FD3EFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A7DAD11C1D845800FD3EFC /* main.m */; };
+		D5A7DAD51C1D845800FD3EFC /* TCPServerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A7DAD41C1D845800FD3EFC /* TCPServerAppDelegate.m */; };
+		D5A7DAD71C1D845800FD3EFC /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D5A7DAD61C1D845800FD3EFC /* Shader.fsh */; };
+		D5A7DAD91C1D845800FD3EFC /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D5A7DAD81C1D845800FD3EFC /* Shader.vsh */; };
+		D5A7DADC1C1D845800FD3EFC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A7DADB1C1D845800FD3EFC /* GameViewController.m */; };
+		D5A7DADF1C1D845800FD3EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A7DADD1C1D845800FD3EFC /* Main.storyboard */; };
+		D5A7DAE11C1D845800FD3EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A7DAE01C1D845800FD3EFC /* Assets.xcassets */; };
+		D5A7DAE41C1D845800FD3EFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A7DAE21C1D845800FD3EFC /* LaunchScreen.storyboard */; };
+		D5A7DB031C1DD5AB00FD3EFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A7DB021C1DD5AB00FD3EFC /* main.m */; };
+		D5A7DB061C1DD5AB00FD3EFC /* TCPClientAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A7DB051C1DD5AB00FD3EFC /* TCPClientAppDelegate.m */; };
+		D5A7DB081C1DD5AB00FD3EFC /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D5A7DB071C1DD5AB00FD3EFC /* Shader.fsh */; };
+		D5A7DB0A1C1DD5AB00FD3EFC /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D5A7DB091C1DD5AB00FD3EFC /* Shader.vsh */; };
+		D5A7DB0D1C1DD5AB00FD3EFC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A7DB0C1C1DD5AB00FD3EFC /* GameViewController.m */; };
+		D5A7DB101C1DD5AB00FD3EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A7DB0E1C1DD5AB00FD3EFC /* Main.storyboard */; };
+		D5A7DB121C1DD5AB00FD3EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A7DB111C1DD5AB00FD3EFC /* Assets.xcassets */; };
+		D5A7DB151C1DD5AB00FD3EFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A7DB131C1DD5AB00FD3EFC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D59C66FF1C21528E009DE1CF /* Copy Frameworks Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D59C67061C2176B3009DE1CF /* TL_INetSyphonSDK.framework in Copy Frameworks Files */,
+			);
+			name = "Copy Frameworks Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A7DAEB1C1D862B00FD3EFC /* Copy Frameworks Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D59C67081C2176CC009DE1CF /* TL_INetSyphonSDK.framework in Copy Frameworks Files */,
+			);
+			name = "Copy Frameworks Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		D5A7DA801C1D7CFD00FD3EFC /* INetSyphon_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INetSyphon_iOS_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5A7DA831C1D7CFD00FD3EFC /* INetSyphon_iOS_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INetSyphon_iOS_SDK.h; sourceTree = "<group>"; };
-		D5A7DA851C1D7CFD00FD3EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59C66EC1C21297D009DE1CF /* GL_FBObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GL_FBObject.h; sourceTree = "<group>"; };
+		D59C66ED1C21297D009DE1CF /* GL_FBObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GL_FBObject.m; sourceTree = "<group>"; };
+		D59C67041C2176A9009DE1CF /* TL_INetSyphonSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TL_INetSyphonSDK.framework; path = Frameworks/TL_INetSyphonSDK.framework; sourceTree = "<group>"; };
+		D5A7DAC81C1D81FB00FD3EFC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		D5A7DACE1C1D845800FD3EFC /* SampleTCPServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTCPServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A7DAD11C1D845800FD3EFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5A7DAD31C1D845800FD3EFC /* TCPServerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPServerAppDelegate.h; sourceTree = "<group>"; };
+		D5A7DAD41C1D845800FD3EFC /* TCPServerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPServerAppDelegate.m; sourceTree = "<group>"; };
+		D5A7DAD61C1D845800FD3EFC /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		D5A7DAD81C1D845800FD3EFC /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		D5A7DADA1C1D845800FD3EFC /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D5A7DADB1C1D845800FD3EFC /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D5A7DADE1C1D845800FD3EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5A7DAE01C1D845800FD3EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5A7DAE31C1D845800FD3EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5A7DAE51C1D845800FD3EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A7DAFF1C1DD5AB00FD3EFC /* SampleTCPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTCPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A7DB021C1DD5AB00FD3EFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5A7DB041C1DD5AB00FD3EFC /* TCPClientAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPClientAppDelegate.h; sourceTree = "<group>"; };
+		D5A7DB051C1DD5AB00FD3EFC /* TCPClientAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPClientAppDelegate.m; sourceTree = "<group>"; };
+		D5A7DB071C1DD5AB00FD3EFC /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		D5A7DB091C1DD5AB00FD3EFC /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		D5A7DB0B1C1DD5AB00FD3EFC /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D5A7DB0C1C1DD5AB00FD3EFC /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D5A7DB0F1C1DD5AB00FD3EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5A7DB111C1DD5AB00FD3EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5A7DB141C1DD5AB00FD3EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5A7DB161C1DD5AB00FD3EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D5A7DA7C1C1D7CFD00FD3EFC /* Frameworks */ = {
+		D5A7DACB1C1D845800FD3EFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59C67091C21781C009DE1CF /* GLKit.framework in Frameworks */,
+				D59C67071C2176C7009DE1CF /* TL_INetSyphonSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A7DAFC1C1DD5AB00FD3EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59C670A1C217825009DE1CF /* GLKit.framework in Frameworks */,
+				D59C67051C2176A9009DE1CF /* TL_INetSyphonSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,7 +113,10 @@
 		D5A7DA761C1D7CFD00FD3EFC = {
 			isa = PBXGroup;
 			children = (
-				D5A7DA821C1D7CFD00FD3EFC /* INetSyphon_iOS_SDK */,
+				D5A7DA8B1C1D7D2900FD3EFC /* Frameworks */,
+				D5A7DA8C1C1D7D3100FD3EFC /* Lib */,
+				D5A7DB001C1DD5AB00FD3EFC /* SampleTCPClient */,
+				D5A7DACF1C1D845800FD3EFC /* SampleTCPServer */,
 				D5A7DA811C1D7CFD00FD3EFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,51 +124,120 @@
 		D5A7DA811C1D7CFD00FD3EFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5A7DA801C1D7CFD00FD3EFC /* INetSyphon_iOS_SDK.framework */,
+				D5A7DACE1C1D845800FD3EFC /* SampleTCPServer.app */,
+				D5A7DAFF1C1DD5AB00FD3EFC /* SampleTCPClient.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5A7DA821C1D7CFD00FD3EFC /* INetSyphon_iOS_SDK */ = {
+		D5A7DA8B1C1D7D2900FD3EFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D5A7DA831C1D7CFD00FD3EFC /* INetSyphon_iOS_SDK.h */,
-				D5A7DA851C1D7CFD00FD3EFC /* Info.plist */,
+				D59C67041C2176A9009DE1CF /* TL_INetSyphonSDK.framework */,
+				D5A7DAC81C1D81FB00FD3EFC /* GLKit.framework */,
 			);
-			path = INetSyphon_iOS_SDK;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5A7DA8C1C1D7D3100FD3EFC /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		D5A7DACF1C1D845800FD3EFC /* SampleTCPServer */ = {
+			isa = PBXGroup;
+			children = (
+				D5A7DAD31C1D845800FD3EFC /* TCPServerAppDelegate.h */,
+				D5A7DAD41C1D845800FD3EFC /* TCPServerAppDelegate.m */,
+				D5A7DAD61C1D845800FD3EFC /* Shader.fsh */,
+				D5A7DAD81C1D845800FD3EFC /* Shader.vsh */,
+				D5A7DADA1C1D845800FD3EFC /* GameViewController.h */,
+				D5A7DADB1C1D845800FD3EFC /* GameViewController.m */,
+				D59C66EC1C21297D009DE1CF /* GL_FBObject.h */,
+				D59C66ED1C21297D009DE1CF /* GL_FBObject.m */,
+				D5A7DADD1C1D845800FD3EFC /* Main.storyboard */,
+				D5A7DAE01C1D845800FD3EFC /* Assets.xcassets */,
+				D5A7DAE21C1D845800FD3EFC /* LaunchScreen.storyboard */,
+				D5A7DAE51C1D845800FD3EFC /* Info.plist */,
+				D5A7DAD01C1D845800FD3EFC /* Supporting Files */,
+			);
+			path = SampleTCPServer;
+			sourceTree = "<group>";
+		};
+		D5A7DAD01C1D845800FD3EFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5A7DAD11C1D845800FD3EFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5A7DB001C1DD5AB00FD3EFC /* SampleTCPClient */ = {
+			isa = PBXGroup;
+			children = (
+				D5A7DB041C1DD5AB00FD3EFC /* TCPClientAppDelegate.h */,
+				D5A7DB051C1DD5AB00FD3EFC /* TCPClientAppDelegate.m */,
+				D5A7DB071C1DD5AB00FD3EFC /* Shader.fsh */,
+				D5A7DB091C1DD5AB00FD3EFC /* Shader.vsh */,
+				D5A7DB0B1C1DD5AB00FD3EFC /* GameViewController.h */,
+				D5A7DB0C1C1DD5AB00FD3EFC /* GameViewController.m */,
+				D5A7DB0E1C1DD5AB00FD3EFC /* Main.storyboard */,
+				D5A7DB111C1DD5AB00FD3EFC /* Assets.xcassets */,
+				D5A7DB131C1DD5AB00FD3EFC /* LaunchScreen.storyboard */,
+				D5A7DB161C1DD5AB00FD3EFC /* Info.plist */,
+				D5A7DB011C1DD5AB00FD3EFC /* Supporting Files */,
+			);
+			path = SampleTCPClient;
+			sourceTree = "<group>";
+		};
+		D5A7DB011C1DD5AB00FD3EFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5A7DB021C1DD5AB00FD3EFC /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		D5A7DA7D1C1D7CFD00FD3EFC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5A7DA841C1D7CFD00FD3EFC /* INetSyphon_iOS_SDK.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		D5A7DA7F1C1D7CFD00FD3EFC /* INetSyphon_iOS_SDK */ = {
+		D5A7DACD1C1D845800FD3EFC /* SampleTCPServer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5A7DA881C1D7CFD00FD3EFC /* Build configuration list for PBXNativeTarget "INetSyphon_iOS_SDK" */;
+			buildConfigurationList = D5A7DAE61C1D845800FD3EFC /* Build configuration list for PBXNativeTarget "SampleTCPServer" */;
 			buildPhases = (
-				D5A7DA7B1C1D7CFD00FD3EFC /* Sources */,
-				D5A7DA7C1C1D7CFD00FD3EFC /* Frameworks */,
-				D5A7DA7D1C1D7CFD00FD3EFC /* Headers */,
-				D5A7DA7E1C1D7CFD00FD3EFC /* Resources */,
+				D5A7DACA1C1D845800FD3EFC /* Sources */,
+				D5A7DACB1C1D845800FD3EFC /* Frameworks */,
+				D5A7DACC1C1D845800FD3EFC /* Resources */,
+				D5A7DAEB1C1D862B00FD3EFC /* Copy Frameworks Files */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = INetSyphon_iOS_SDK;
-			productName = INetSyphon_iOS_SDK;
-			productReference = D5A7DA801C1D7CFD00FD3EFC /* INetSyphon_iOS_SDK.framework */;
-			productType = "com.apple.product-type.framework";
+			name = SampleTCPServer;
+			productName = SampleTCPServer;
+			productReference = D5A7DACE1C1D845800FD3EFC /* SampleTCPServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5A7DAFE1C1DD5AB00FD3EFC /* SampleTCPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A7DB171C1DD5AB00FD3EFC /* Build configuration list for PBXNativeTarget "SampleTCPClient" */;
+			buildPhases = (
+				D5A7DAFB1C1DD5AB00FD3EFC /* Sources */,
+				D5A7DAFC1C1DD5AB00FD3EFC /* Frameworks */,
+				D5A7DAFD1C1DD5AB00FD3EFC /* Resources */,
+				D59C66FF1C21528E009DE1CF /* Copy Frameworks Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleTCPClient;
+			productName = SampleTCPClient;
+			productReference = D5A7DAFF1C1DD5AB00FD3EFC /* SampleTCPClient.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -93,7 +248,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "TECHLIFE SG Pte.Ltd.";
 				TargetAttributes = {
-					D5A7DA7F1C1D7CFD00FD3EFC = {
+					D5A7DACD1C1D845800FD3EFC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D5A7DAFE1C1DD5AB00FD3EFC = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -104,36 +262,104 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D5A7DA761C1D7CFD00FD3EFC;
 			productRefGroup = D5A7DA811C1D7CFD00FD3EFC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5A7DA7F1C1D7CFD00FD3EFC /* INetSyphon_iOS_SDK */,
+				D5A7DACD1C1D845800FD3EFC /* SampleTCPServer */,
+				D5A7DAFE1C1DD5AB00FD3EFC /* SampleTCPClient */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D5A7DA7E1C1D7CFD00FD3EFC /* Resources */ = {
+		D5A7DACC1C1D845800FD3EFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5A7DADF1C1D845800FD3EFC /* Main.storyboard in Resources */,
+				D5A7DAD91C1D845800FD3EFC /* Shader.vsh in Resources */,
+				D5A7DAE11C1D845800FD3EFC /* Assets.xcassets in Resources */,
+				D5A7DAE41C1D845800FD3EFC /* LaunchScreen.storyboard in Resources */,
+				D5A7DAD71C1D845800FD3EFC /* Shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A7DAFD1C1DD5AB00FD3EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A7DB101C1DD5AB00FD3EFC /* Main.storyboard in Resources */,
+				D5A7DB0A1C1DD5AB00FD3EFC /* Shader.vsh in Resources */,
+				D5A7DB121C1DD5AB00FD3EFC /* Assets.xcassets in Resources */,
+				D5A7DB151C1DD5AB00FD3EFC /* LaunchScreen.storyboard in Resources */,
+				D5A7DB081C1DD5AB00FD3EFC /* Shader.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D5A7DA7B1C1D7CFD00FD3EFC /* Sources */ = {
+		D5A7DACA1C1D845800FD3EFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5A7DAD51C1D845800FD3EFC /* TCPServerAppDelegate.m in Sources */,
+				D59C66EE1C21297D009DE1CF /* GL_FBObject.m in Sources */,
+				D5A7DADC1C1D845800FD3EFC /* GameViewController.m in Sources */,
+				D5A7DAD21C1D845800FD3EFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A7DAFB1C1DD5AB00FD3EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A7DB061C1DD5AB00FD3EFC /* TCPClientAppDelegate.m in Sources */,
+				D5A7DB0D1C1DD5AB00FD3EFC /* GameViewController.m in Sources */,
+				D5A7DB031C1DD5AB00FD3EFC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5A7DADD1C1D845800FD3EFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A7DADE1C1D845800FD3EFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5A7DAE21C1D845800FD3EFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A7DAE31C1D845800FD3EFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D5A7DB0E1C1DD5AB00FD3EFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A7DB0F1C1DD5AB00FD3EFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5A7DB131C1DD5AB00FD3EFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A7DB141C1DD5AB00FD3EFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D5A7DA861C1D7CFD00FD3EFC /* Debug */ = {
@@ -224,35 +450,75 @@
 			};
 			name = Release;
 		};
-		D5A7DA891C1D7CFD00FD3EFC /* Debug */ = {
+		D5A7DAE71C1D845800FD3EFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = INetSyphon_iOS_SDK/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sg.techlife.INetSyphon-iOS-SDK";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = SampleTCPServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.techlife.SampleTCPServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		D5A7DA8A1C1D7CFD00FD3EFC /* Release */ = {
+		D5A7DAE81C1D845800FD3EFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = INetSyphon_iOS_SDK/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sg.techlife.INetSyphon-iOS-SDK";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = SampleTCPServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.techlife.SampleTCPServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D5A7DB181C1DD5AB00FD3EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = SampleTCPClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.techlife.SampleTCPClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5A7DB191C1DD5AB00FD3EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = SampleTCPClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.techlife.SampleTCPClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -268,13 +534,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5A7DA881C1D7CFD00FD3EFC /* Build configuration list for PBXNativeTarget "INetSyphon_iOS_SDK" */ = {
+		D5A7DAE61C1D845800FD3EFC /* Build configuration list for PBXNativeTarget "SampleTCPServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5A7DA891C1D7CFD00FD3EFC /* Debug */,
-				D5A7DA8A1C1D7CFD00FD3EFC /* Release */,
+				D5A7DAE71C1D845800FD3EFC /* Debug */,
+				D5A7DAE81C1D845800FD3EFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A7DB171C1DD5AB00FD3EFC /* Build configuration list for PBXNativeTarget "SampleTCPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A7DB181C1DD5AB00FD3EFC /* Debug */,
+				D5A7DB191C1DD5AB00FD3EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

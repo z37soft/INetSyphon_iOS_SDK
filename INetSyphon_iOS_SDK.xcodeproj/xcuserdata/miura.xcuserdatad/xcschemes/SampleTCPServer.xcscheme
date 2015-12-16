@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D5A7DA7F1C1D7CFD00FD3EFC"
-               BuildableName = "INetSyphon_iOS_SDK.framework"
-               BlueprintName = "INetSyphon_iOS_SDK"
+               BlueprintIdentifier = "D5A7DA901C1D7D6300FD3EFC"
+               BuildableName = "SampleTCPServer.app"
+               BlueprintName = "SampleTCPServer"
                ReferencedContainer = "container:INetSyphon_iOS_SDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5A7DA901C1D7D6300FD3EFC"
+            BuildableName = "SampleTCPServer.app"
+            BlueprintName = "SampleTCPServer"
+            ReferencedContainer = "container:INetSyphon_iOS_SDK.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D5A7DA7F1C1D7CFD00FD3EFC"
-            BuildableName = "INetSyphon_iOS_SDK.framework"
-            BlueprintName = "INetSyphon_iOS_SDK"
+            BlueprintIdentifier = "D5A7DA901C1D7D6300FD3EFC"
+            BuildableName = "SampleTCPServer.app"
+            BlueprintName = "SampleTCPServer"
             ReferencedContainer = "container:INetSyphon_iOS_SDK.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D5A7DA7F1C1D7CFD00FD3EFC"
-            BuildableName = "INetSyphon_iOS_SDK.framework"
-            BlueprintName = "INetSyphon_iOS_SDK"
+            BlueprintIdentifier = "D5A7DA901C1D7D6300FD3EFC"
+            BuildableName = "SampleTCPServer.app"
+            BlueprintName = "SampleTCPServer"
             ReferencedContainer = "container:INetSyphon_iOS_SDK.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
